@@ -29,7 +29,7 @@ public class ClickBot
 		while(this.isRunning()) {
 			if(System.currentTimeMillis() > startTime + 5000 || started) {
 				
-				if(System.currentTimeMillis() > startTime + 50) {
+				if(System.currentTimeMillis() > startTime + 10) {
 					bot.mousePress(mask);
 					bot.mouseRelease(mask);
 					started = true;
